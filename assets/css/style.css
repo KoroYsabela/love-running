@@ -127,7 +127,7 @@ main {
     text-align: center;
 }
 
-#benefits > p {
+#benefits p {
     padding: 0 20px;
 }
 
@@ -136,7 +136,7 @@ main {
     margin-bottom: 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -246,12 +246,12 @@ hr {
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
     #benefits-image {
-        order: 0;
+        order: 0
     }
 
     #benefits-mental {
@@ -262,7 +262,7 @@ hr {
         align-self: flex-start;
     }
 
-    #benefits-pysical > div {
+    #benefits-physical > div {
         align-self: flex-end;
     }
 }
